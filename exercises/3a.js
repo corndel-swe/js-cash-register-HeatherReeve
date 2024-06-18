@@ -3,7 +3,12 @@
  * in the array
  */
 function lastRecipe(recipeBook) {
-  // code here
+  // filter through array 
+  //choose last item in it 
+  //.lengh-1
+ return recipeBook.recipes[recipeBook.recipes.length-1]?.name
+
+
 }
 
 // we've provided a sample object for debugging:
