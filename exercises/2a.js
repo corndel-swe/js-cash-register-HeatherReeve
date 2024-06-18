@@ -3,7 +3,22 @@
  */
 function countVeggies(recipes) {
   // code here
+  //loop through list
+ //count how many have isVegetarian = true add 1
+ //count++
+//return vegetarian recipes
+let count = 0
+for (let recipe of recipes) {
+  if (recipe.isVegetarian === true) {
+
+     count++
+  }
+   
 }
+return count
+ }
+
+
 
 // array provided for debugging:
 const recipes = [

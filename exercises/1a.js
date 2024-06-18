@@ -13,8 +13,8 @@ function recipeSummary(recipe) {
   //people
   const { name, ingredients, servings } = recipe
 
-  const summary = `${name} has ${ingredients.length} ingredients and serves ${servings} people`
-  return summary
+  return `${name} has ${ingredients.length} ingredients and serves ${servings} people`
+  
 }
 
 // We have provided two recipes for debugging:
